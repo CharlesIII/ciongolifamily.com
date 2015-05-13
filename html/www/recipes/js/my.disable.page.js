@@ -1,0 +1,131 @@
+function disableAll(){
+   var el = document.forms[0].elements;
+   for(var i=0;i<el.length;i++){
+   el[i].setAttribute('disabled',true)
+   }
+   src.disable(true);
+   r.disable(true);
+   cus.disable(true);
+   y.disable(true);
+   m.disable(true);
+    
+   cat0.disable(true);
+   cat1.disable(true);
+   cat2.disable(true);
+   cat3.disable(true);
+   
+   sc0.disable(true);
+   sc1.disable(true);
+   sc2.disable(true);
+   sc3.disable(true);
+   
+   u0.disable(true);
+   u1.disable(true);
+   u2.disable(true);
+   u3.disable(true);
+   u4.disable(true);
+   u5.disable(true);
+   u6.disable(true);
+   u7.disable(true);
+   u8.disable(true);
+   u9.disable(true);
+   u10.disable(true);
+   u11.disable(true);
+   u12.disable(true);
+   u13.disable(true);
+   u14.disable(true);
+   u15.disable(true);
+   u16.disable(true);
+   u17.disable(true);
+   u18.disable(true);
+   u19.disable(true);
+   u20.disable(true);
+   u21.disable(true);
+   u22.disable(true);
+   u23.disable(true);
+   u24.disable(true);
+   
+   i0.disable(true);
+   i1.disable(true);
+   i2.disable(true);
+   i3.disable(true);
+   i4.disable(true);
+   i5.disable(true);
+   i6.disable(true);
+   i7.disable(true);
+   i8.disable(true);
+   i9.disable(true);
+   i10.disable(true);
+   i11.disable(true);
+   i12.disable(true);
+   i13.disable(true);
+   i14.disable(true);
+   i15.disable(true);
+   i16.disable(true);
+   i17.disable(true);
+   i18.disable(true);
+   i19.disable(true);
+   i20.disable(true);
+   i21.disable(true);
+   i22.disable(true);
+   i23.disable(true);
+   i24.disable(true);
+   
+   p0.disable(true);
+   p1.disable(true);
+   p2.disable(true);
+   p3.disable(true);
+   p4.disable(true);
+   p5.disable(true);
+   p6.disable(true);
+   p7.disable(true);
+   p8.disable(true);
+   p9.disable(true);
+   p10.disable(true);
+   p11.disable(true);
+   p12.disable(true);
+   p13.disable(true);
+   p14.disable(true);
+   p15.disable(true);
+   p16.disable(true);
+   p17.disable(true);
+   p18.disable(true);
+   p19.disable(true);
+   p20.disable(true);
+   p21.disable(true);
+   p22.disable(true);
+   p23.disable(true);
+   p24.disable(true);
+   
+   pp0.disable(true);
+   pp1.disable(true);
+   pp2.disable(true);
+   pp3.disable(true);
+   pp4.disable(true);
+   pp5.disable(true);
+   pp6.disable(true);
+   pp7.disable(true);
+   pp8.disable(true);
+   pp9.disable(true);
+   pp10.disable(true);
+   pp11.disable(true);
+   pp12.disable(true);
+   pp13.disable(true);
+   pp14.disable(true);
+   pp15.disable(true);
+   pp16.disable(true);
+   pp17.disable(true);
+   pp18.disable(true);
+   pp19.disable(true);
+   pp20.disable(true);
+   pp21.disable(true);
+   pp22.disable(true);
+   pp23.disable(true);
+   pp24.disable(true);
+}
+function import_disableAll(){
+   var el = document.forms[0].elements;
+   for(var i=0;i<el.length;i++){
+   el[i].setAttribute('disabled',true)
+   }
+}

@@ -1,0 +1,48 @@
+body{
+	margin:0;
+	padding:0;
+}
+.rheader, .h strong {
+    border-bottom: 1px solid #666666;
+    color: black;
+    text-transform: uppercase;
+}
+input[type=checkbox].css-checkbox + .css-label, input[type=checkbox].css-checkbox + .css-label.clr {
+  padding-left: 15px;
+}
+h3{display:none;}
+a{display:none;}
+.btn{display:none;}
+td.footer_1 {display:none;}
+td.footer {display:none;}
+.sb-left, .sb-right {display:none !important;}
+.sb-slidebar {
+    display: none;
+}
+#sb-site, .sb-site-container {
+    -webkit-transform: translate( 0px );
+    transform: translate( 0px );
+    left: 0;
+}
+#sb-site {min-height:0 !important;transform:none !important;box-shadow:none !important}
+#sidemenu, footer, #showmenu, #hidemenu, #help, .nav, nav, #accordion, select, textarea, #rdrop, h4, .ui-wrapper, .dhx_combo_list, #logo {display:none !important;}
+.noprint {display:none;}
+.sl_1 {display:none;}
+br {display:none;}
+.aisledel, .aislerem, .aisleedit {display:none;}
+.recimg {
+	height: 30px;
+	width: 30px;	
+}
+.rectd {width:30px;line-height: 1.0;}
+#msgbox, #msgbox1, .message_box {display:none;}
+#dragothers {margin-bottom:0px;vertical-align:middle;margin-top:10px;}
+.drag {height:auto;margin-bottom:0;vertical-align:middle;font-weight:bold;margin-top:10px;}
+.dib {display:inline-block;}
+.drag, .drop, .header {margin-top: 15px;margin-bottom: 15px;}
+input[type=checkbox].css-checkbox {
+        display:inline-block;
+}
+label.css-label {
+    display:inline-block;
+}

@@ -1,0 +1,127 @@
+body{
+	margin:0;
+	padding:0;
+	top:0;
+}
+.sdib{display:inline-block;margin-right:10px;}
+.drop, #dragothers {
+    cursor: pointer; 
+}
+.header, [id^=h] {
+    background-color: #a15883;
+    color: white;
+    height: 30px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+#list {width:80%}
+#sb-site {box-shadow: none !important;padding:0 !important}
+.sb-slidebar {width:0 !important}
+.sdiv {display:inline !important;}
+h3{display:none;}
+/*.chk {display:inline !important}*/
+.dhx_combo_input{display:none;}
+a{display:none;}
+.btn{display:none;}
+td.footer_1 {display:none;}
+td.footer {display:none;}
+.sidemenu {display:none;}
+#sidemenu, footer, #showmenu, #hidemenu, #help, nav, #accordion, select, textarea, #rdrop, h4, .ui-wrapper, .sb-left, .sb-right, .sb-slidebar, .shopping {display:none !important;}
+.noshop {display:none;}
+.sl_1 {display:none;}
+br {display:none;}                                                                                         
+.aisledel, .aislerem, .aisleedit {display:none;}
+.recimg {
+	height: 35px;
+	width: 35px;	
+}
+.rectd {width:30px;line-height: 1.0;}
+#msgbox, #msgbox1, .message_box {display:none;}
+#dragothers {margin-bottom:0px;vertical-align:middle;margin-top:10px;}
+.drag {height:30px;margin-bottom:0px;vertical-align:middle;margin-top:10px;}
+.drag, .drop, .header {margin-top: 15px;margin-bottom: 15px;}
+.container {width:100%;}
+.nm {
+    -moz-box-shadow: 0px 10px 14px -7px #33486f;
+    -webkit-box-shadow: 0px 10px 14px -7px #33486f;
+    box-shadow: 0px 10px 14px -7px #33486f;
+
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #4265a6), color-stop(1, #87a2d5));
+    background:-moz-linear-gradient(top, #4265a6 5%, #87a2d5 100%);
+    background:-webkit-linear-gradient(top, #4265a6 5%, #87a2d5 100%);
+    background:-o-linear-gradient(top, #4265a6 5%, #87a2d5 100%);
+    background:-ms-linear-gradient(top, #4265a6 5%, #87a2d5 100%);
+    background:linear-gradient(to bottom, #4265a6 5%, #87a2d5 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#4265a6', endColorstr='#87a2d5',GradientType=0);
+
+    background-color:#4265a6;
+
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    border-radius:8px;
+    border: none;
+    height:auto;
+    width:auto;
+    display:inline-block !important;
+    color:#ffffff;
+    font-family:arial;
+    font-size:14px;
+    font-weight:bold;
+    padding:4px 20px;
+    text-decoration:none;
+    margin-top: 10px;
+    margin-bottom:10px;
+    text-shadow:0px 1px 0px #33486f;
+
+}
+.nm:hover {
+
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #87a2d5), color-stop(1, #4265a6));
+    background:-moz-linear-gradient(top, #87a2d5 5%, #4265a6 100%);
+    background:-webkit-linear-gradient(top, #87a2d5 5%, #4265a6 100%);
+    background:-o-linear-gradient(top, #87a2d5 5%, #4265a6 100%);
+    background:-ms-linear-gradient(top, #87a2d5 5%, #4265a6 100%);
+    background:linear-gradient(to bottom, #87a2d5 5%, #4265a6 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#87a2d5', endColorstr='#4265a6',GradientType=0);
+    color:#ffffff !important;
+    background-color:#87a2d5;
+    border:none
+}
+.nm:active {
+    position:relative;
+    top:1px;
+}
+.nm:focus {
+    outline: none !important;
+}
+input[type=checkbox].css-checkbox {
+        /*position:absolute; z-index:-1000; top:-1000px;*/
+        display:none;
+}
+
+input[type=checkbox].css-checkbox + label.css-label, input[type=checkbox].css-checkbox + label.css-label.clr {
+    padding-left:39px;
+    height:35px; 
+    display:inline-block;
+    line-height:35px;
+    background-repeat:no-repeat;
+    background-position: 0 0;
+    font-size:14px;
+    vertical-align:middle;
+    cursor:pointer;
+
+}
+
+input[type=checkbox].css-checkbox:checked + label.css-label, input[type=checkbox].css-checkbox + label.css-label.chk {
+    background-position: 0 -35px;
+}
+label.css-label {
+    background-image:url(../images/csscheckbox.png);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#sb-site {min-height:0 !important;transform:none !important;box-shadow:none !important}

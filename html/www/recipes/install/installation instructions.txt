@@ -1,0 +1,95 @@
+
+INSTALLATION INSTRUCTIONS
+
+Upgrade From Trial Installation Instructions
+
+    If you have already installed the trial version of My Web Recipe Manager and have decided to purchase, you only need to download the upgrade package for whatever version you have chosen.  
+    Then all you need to do is to extract the file in the zip package into your mywrm/includes/ directory on your server. Ensure you choose to overwrite the file when propmpted.
+
+New Install Instructions
+    
+    Install Checklist
+
+       Read the End User Licence Agreement
+       Install Bitnami Wampstack if you don't currently have a web server.
+       Upload files.
+       Create a new database with a user that has full rights to it.
+       Edit dbclient.php file.
+       php.ini settings.
+       Access My Web Recipe Manager
+
+    1. Install Bitnami Wampstack (if you already have a web server installed, skip to step 2)
+
+    Download the <a href="http://bitnami.org/stack/wampstack" target=_BLANK alt="Bitnami Wapmpstack download" title="Bitnami Wampstack download">Bitnami Wampstack Installer</a>
+                           
+    Installation instructions can be found <a href="http://wiki.bitnami.com/Native_Installers_Quick_Start_Guide#Installation" target=_BLANK >here</a> 
+
+    2. Upload files
+
+        Unzip the mywrm.zip file with paths into your web directory (if you installed bitnami wampstack on windows the default path is C:\BitNami\application-version\apache2\htdocs)
+
+        OR if installing on a remote server
+
+        Unzip the mywrm.zip file with paths and upload using FTP to your server. If you do this, be sure your files are owned by the user who owns the site.
+
+    3. Create Database
+
+        Create a new database with UTF8 encoding named mywrm. If installing on a remote server, check with your server's control panel documentation for details on how to create databases.
+
+        Then use phpMyAdmin/phpPgAdmin to execute the sql commands in mywrm/install/[database type]-mywrm.sql (If you're using postgresql please read the note below first). This will build your database.
+
+        NOTE if you are using a postgresql database with a user other than the default of postgres, then you should replace all occurrences of the word postgres with your user in the sql file before running the commands. If you don't have a text editor capable of doing this easily then I recommend <a href='http://www.activestate.com/komodo-edit/downloads'>Komodo</a>
+
+    4. Edit dbclient.php file
+
+        Open the mywrm/includes/dbclient.php file for editing.
+
+        Follow the instructions in the file to configure your copy of My Web Recipe Manager
+
+        Save your changes and upload if hosting remotely.
+
+    5. php.ini settings
+
+        If you have access to php.ini (it will be in the php folder in your web server directory). If not you may be able to add a custom one - ask your hosting provider about this.
+
+        If you are using mysql then make sure this line:
+
+         extension=php_pdo_mysql.dll   (windows)
+         extension = "pdo_mysql.so"    (unix)
+
+        is uncommented in your php.ini file
+
+        If you are using postgresql then make sure this line:
+
+         extension=php_pdo_pgsql.dll    (windows)
+         extension = "pdo_pgsql.so"     (unix)
+
+        is uncommented in your php.ini file
+
+        If you wish to add videos to recipes then ensure at least the following is set
+
+        upload_max_filesize = 50M
+
+        Make sure at least these values are set to avoid errors in data management when you have a large number of recipes or ingredients
+
+         post_max_size = 50M
+         max_input_vars = 10000
+
+        Make sure this is set (if available) to allow uploading 10 images per recipe
+
+        max_file_uploads = 20
+
+    6. Access My Web Recipe Manager
+       
+        My Web Recipe Manager can now be accessed as follows:
+        
+        On your local server http://localhost/mywrm
+        
+        On a remote server http://www.yourdomain/mywrm
+
+        You can log in with the following supplied user which has admin access and has the ability to add/manage users:
+
+        User: mywrm
+
+        Password: mywrmpass
+

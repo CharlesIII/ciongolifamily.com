@@ -1,0 +1,52 @@
+hr{
+    display: block;
+    height: 1px;
+    background: transparent;
+    width: 100%;
+    border: none;
+    border-top: solid 2px #aaa;
+    margin:0;
+    padding:0;
+}
+body{
+	margin:0;
+	padding:0;
+}
+h3 {font-size: 18px;}
+input, .noprint, .dib strong{display:none !important;}
+.sb-slidebar {
+    display: none !important;
+}
+#sb-site, .sb-site-container {
+    -webkit-transform: translate( 0px );
+    transform: translate( 0px );
+    left: 0;
+}
+input.chk{display:none;}
+footer {display:none;}
+img {display:none;}
+.sl_1 {display:none;}
+div.dhx_combo_box {display:none;}
+nav, .nav {display:none;}
+#msgbox, #msgbox1 {display:none;}
+.btn {display:none;}
+div a{color:black;text-decoration:none;font-weight:normal;vertical-align:middle;}
+#sb-site {transform:none !important;box-shadow:none !important;}
+#drop [id*='droppable'] {width:120px;vertical-align:top;height:30px;padding: 5px;border:solid #aaaaaa 1px;maxwidth:75% !important;}
+#drop {border:solid #aaaaaa 1px; border-collapse: collapse;}
+strong {
+        color: #a15883;
+}
+.ui-combobox{display:none;}
+div .navbar-default {
+    background-color: #a15883  !important;
+    color: white  !important;
+    font-weight: bold  !important;
+    height: auto !important;
+    padding-bottom: 3px  !important;
+    padding-top: 3px  !important;
+    text-align: center  !important;
+}
+.dib {display:inline-block;}
+
+ 
